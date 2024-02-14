@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		71567E6F2B7D65B70043B7FD /* RecursiveMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71567E6E2B7D65B70043B7FD /* RecursiveMethod.swift */; };
+		71567E712B7D65F30043B7FD /* MemoizationMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71567E702B7D65F30043B7FD /* MemoizationMethod.swift */; };
+		71567E732B7D66100043B7FD /* TabulationMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71567E722B7D66100043B7FD /* TabulationMethod.swift */; };
+		71567E752B7D662C0043B7FD /* SpaceOptimizedMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71567E742B7D662C0043B7FD /* SpaceOptimizedMethod.swift */; };
+		71567E772B7D66550043B7FD /* MatrixExponentiationMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71567E762B7D66550043B7FD /* MatrixExponentiationMethod.swift */; };
+		71567E792B7D666C0043B7FD /* GoldenRatioMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71567E782B7D666C0043B7FD /* GoldenRatioMethod.swift */; };
 		718874CB2B7A2E1E0065245D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718874CA2B7A2E1E0065245D /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +29,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		71567E6E2B7D65B70043B7FD /* RecursiveMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecursiveMethod.swift; sourceTree = "<group>"; };
+		71567E702B7D65F30043B7FD /* MemoizationMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoizationMethod.swift; sourceTree = "<group>"; };
+		71567E722B7D66100043B7FD /* TabulationMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabulationMethod.swift; sourceTree = "<group>"; };
+		71567E742B7D662C0043B7FD /* SpaceOptimizedMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceOptimizedMethod.swift; sourceTree = "<group>"; };
+		71567E762B7D66550043B7FD /* MatrixExponentiationMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrixExponentiationMethod.swift; sourceTree = "<group>"; };
+		71567E782B7D666C0043B7FD /* GoldenRatioMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoldenRatioMethod.swift; sourceTree = "<group>"; };
 		718874C72B7A2E1E0065245D /* APA Laboratory Works */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "APA Laboratory Works"; sourceTree = BUILT_PRODUCTS_DIR; };
 		718874CA2B7A2E1E0065245D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -38,6 +50,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		71567E6D2B7D65920043B7FD /* Laboratory 1 */ = {
+			isa = PBXGroup;
+			children = (
+				71567E6E2B7D65B70043B7FD /* RecursiveMethod.swift */,
+				71567E702B7D65F30043B7FD /* MemoizationMethod.swift */,
+				71567E722B7D66100043B7FD /* TabulationMethod.swift */,
+				71567E742B7D662C0043B7FD /* SpaceOptimizedMethod.swift */,
+				71567E762B7D66550043B7FD /* MatrixExponentiationMethod.swift */,
+				71567E782B7D666C0043B7FD /* GoldenRatioMethod.swift */,
+			);
+			path = "Laboratory 1";
+			sourceTree = "<group>";
+		};
 		718874BE2B7A2E1E0065245D = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				718874CA2B7A2E1E0065245D /* main.swift */,
+				71567E6D2B7D65920043B7FD /* Laboratory 1 */,
 			);
 			path = "APA Laboratory Works";
 			sourceTree = "<group>";
@@ -120,7 +146,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71567E752B7D662C0043B7FD /* SpaceOptimizedMethod.swift in Sources */,
+				71567E712B7D65F30043B7FD /* MemoizationMethod.swift in Sources */,
+				71567E772B7D66550043B7FD /* MatrixExponentiationMethod.swift in Sources */,
+				71567E732B7D66100043B7FD /* TabulationMethod.swift in Sources */,
+				71567E792B7D666C0043B7FD /* GoldenRatioMethod.swift in Sources */,
 				718874CB2B7A2E1E0065245D /* main.swift in Sources */,
+				71567E6F2B7D65B70043B7FD /* RecursiveMethod.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
