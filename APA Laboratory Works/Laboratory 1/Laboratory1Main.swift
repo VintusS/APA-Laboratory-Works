@@ -23,7 +23,9 @@ func lab1() {
 //    fibonacciSpaceOptimizedApplied(terms: [23, 28, 38, 45, 100, 200, 300, 400, 500, 600, 20000, 30000], runs: 3)
     
     // MARK: -Matrix Exponentiation Method
-    fibonacciMatrixExponentiationApplied(terms: [23, 28, 38, 45, 100, 200, 300, 400, 500, 600, 20000, 30000], runs: 3)
+//    fibonacciMatrixExponentiationApplied(terms: [23, 28, 38, 45, 100, 200, 300, 400, 500, 600, 20000, 30000], runs: 3)
     
+    // MARK: -Golden Ratio Method
+    fibonacciGoldenRatioApplied(terms: [23, 28, 38, 45, 100, 200, 300, 500, 600, 20000, 100000, 100000000], runs: 3)
 }
 
