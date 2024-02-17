@@ -15,6 +15,8 @@ func lab1() {
     // MARK: -Memoization Method
     //    fibonacciMemoApplied(terms: [23, 28, 38, 45, 100, 200, 300, 400, 500, 600, 20000, 30000], runs: 3)
     // MARK: -Tabulation Method
-    fibonacciTabulationApplied(terms: [23, 28, 38, 45, 100, 200, 300, 400, 500, 600, 20000, 30000], runs: 3)
+//    fibonacciTabulationApplied(terms: [23, 28, 38, 45, 100, 200, 300, 400, 500, 600, 20000, 30000], runs: 3)
+    // MARK: -Space Optimized Method
+    fibonacciSpaceOptimizedApplied(terms: [23, 28, 38, 45, 100, 200, 300, 400, 500, 600, 20000, 30000], runs: 3)
 }
 
