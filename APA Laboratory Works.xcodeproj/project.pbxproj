@@ -14,6 +14,7 @@
 		71567E772B7D66550043B7FD /* MatrixExponentiationMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71567E762B7D66550043B7FD /* MatrixExponentiationMethod.swift */; };
 		71567E792B7D666C0043B7FD /* GoldenRatioMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71567E782B7D666C0043B7FD /* GoldenRatioMethod.swift */; };
 		718874CB2B7A2E1E0065245D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718874CA2B7A2E1E0065245D /* main.swift */; };
+		71F3184F2B80FADA0073FEE6 /* Laboratory1Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F3184E2B80FADA0073FEE6 /* Laboratory1Main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +38,7 @@
 		71567E782B7D666C0043B7FD /* GoldenRatioMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoldenRatioMethod.swift; sourceTree = "<group>"; };
 		718874C72B7A2E1E0065245D /* APA Laboratory Works */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "APA Laboratory Works"; sourceTree = BUILT_PRODUCTS_DIR; };
 		718874CA2B7A2E1E0065245D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		71F3184E2B80FADA0073FEE6 /* Laboratory1Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Laboratory1Main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 		71567E6D2B7D65920043B7FD /* Laboratory 1 */ = {
 			isa = PBXGroup;
 			children = (
+				71F3184E2B80FADA0073FEE6 /* Laboratory1Main.swift */,
 				71567E6E2B7D65B70043B7FD /* RecursiveMethod.swift */,
 				71567E702B7D65F30043B7FD /* MemoizationMethod.swift */,
 				71567E722B7D66100043B7FD /* TabulationMethod.swift */,
@@ -151,6 +154,7 @@
 				71567E772B7D66550043B7FD /* MatrixExponentiationMethod.swift in Sources */,
 				71567E732B7D66100043B7FD /* TabulationMethod.swift in Sources */,
 				71567E792B7D666C0043B7FD /* GoldenRatioMethod.swift in Sources */,
+				71F3184F2B80FADA0073FEE6 /* Laboratory1Main.swift in Sources */,
 				718874CB2B7A2E1E0065245D /* main.swift in Sources */,
 				71567E6F2B7D65B70043B7FD /* RecursiveMethod.swift in Sources */,
 			);
