@@ -16,29 +16,32 @@ func fibonacciRecursive(n: Int) -> Int {
     return fibonacciRecursive(n: n - 1) + fibonacciRecursive(n: n - 2)
 }
 
-func measureRecursiveFibonacciTimes(n: Int, runs: Int) {
+func fibonacciRecursiveApplied(terms: [Int], runs: Int) {
+    // Placeholder for time data across runs for each term
     var timeData: [[TimeInterval]] = []
 
-    // Collect time data
+    // Collect time data for the specified terms across multiple "runs"
     for _ in 1...runs {
         var runTimes: [TimeInterval] = []
-        for i in 1...n {
+        for term in terms {
             let startTime = Date()
-            _ = fibonacciRecursive(n: i)
+            _ = fibonacciRecursive(n: term) // Calculate Fibonacci number for the term
             let endTime = Date()
-            runTimes.append(endTime.timeIntervalSince(startTime))
+            runTimes.append(endTime.timeIntervalSince(startTime)) // Measure time taken
         }
         timeData.append(runTimes)
     }
 
-    // Print table header
-    let header = (1...n).map { "Term \($0)" }.joined(separator: " | ")
+    // Print table header for specified terms
+    let header = terms.map { "Term \($0)" }.joined(separator: " | ")
     print(header)
-    print(String(repeating: "-", count: header.count))
+    print(String(repeating: "-", count: header.utf16.count))
 
     // Print each row of time data
-    for run in timeData {
-        let row = run.map { String(format: "%.5f", $0) }.joined(separator: " | ")
+    for runTimes in timeData {
+        let timeStrings = runTimes.map { String(format: "%.5f s", $0) }
+        let row = timeStrings.joined(separator: " | ")
         print(row)
     }
 }
+
