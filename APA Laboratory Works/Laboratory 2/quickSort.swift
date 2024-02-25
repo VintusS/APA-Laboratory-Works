@@ -30,26 +30,16 @@ func partition<T: Comparable>(_ array: inout [T], low: Int, high: Int) -> Int {
     return i + 1
 }
 
-// Function to measure time spent on sorting
-func measureTime<T>(_ closure: () -> T) -> (result: T, time: Double) {
-    let startTime = DispatchTime.now()
-    let result = closure()
-    let endTime = DispatchTime.now()
-    let elapsedTime = Double(endTime.uptimeNanoseconds - startTime.uptimeNanoseconds) / 1_000_000_000
-    return (result, elapsedTime)
-}
-
-// Arrays to be sorted
-var arraysToSort: [[Int]] = [
-    arrayType1,
-    arrayType2,
-    arrayType3,
-    arrayType4,
-    arrayType5,
-]
-
-
-func quickSortOutput() {
+func quickSortApplied() {
+    // Arrays to be sorted
+    let arraysToSort: [[Int]] = [
+        arrayType1,
+        arrayType2,
+        arrayType3,
+        arrayType4,
+        arrayType5,
+    ]
+    
     var timeResults: [[Double]] = []
     
     for (_, array) in arraysToSort.enumerated() {

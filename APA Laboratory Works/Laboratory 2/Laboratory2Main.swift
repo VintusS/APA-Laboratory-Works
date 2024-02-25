@@ -8,5 +8,6 @@
 import Foundation
 
 func lab2() {
-    quickSortOutput()
+//    quickSortApplied()
+    mergeSortApplied()
 }
