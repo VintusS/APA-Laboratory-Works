@@ -52,6 +52,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		714B14D62B8B9A64002E7E0E /* Laboratory 2 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Laboratory 2";
+			sourceTree = "<group>";
+		};
 		71567E6D2B7D65920043B7FD /* Laboratory 1 */ = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +94,7 @@
 			children = (
 				718874CA2B7A2E1E0065245D /* main.swift */,
 				71567E6D2B7D65920043B7FD /* Laboratory 1 */,
+				714B14D62B8B9A64002E7E0E /* Laboratory 2 */,
 			);
 			path = "APA Laboratory Works";
 			sourceTree = "<group>";

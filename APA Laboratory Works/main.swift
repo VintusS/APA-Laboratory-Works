@@ -8,4 +8,4 @@
 
 import Foundation
 
-lab1()
+//  lab1()
