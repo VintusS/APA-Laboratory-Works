@@ -8,5 +8,5 @@
 import Foundation
 
 func lab2() {
-    print(arrayType5)
+    quickSortOutput()
 }
