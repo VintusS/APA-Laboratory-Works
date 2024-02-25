@@ -12,6 +12,7 @@
 		714B14DC2B8BACB5002E7E0E /* quickSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714B14DB2B8BACB5002E7E0E /* quickSort.swift */; };
 		714B14DE2B8BB23E002E7E0E /* mergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714B14DD2B8BB23E002E7E0E /* mergeSort.swift */; };
 		714B14E02B8BB296002E7E0E /* timeCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714B14DF2B8BB296002E7E0E /* timeCalculator.swift */; };
+		714B14E22B8BB89F002E7E0E /* heapSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714B14E12B8BB89F002E7E0E /* heapSort.swift */; };
 		71567E6F2B7D65B70043B7FD /* RecursiveMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71567E6E2B7D65B70043B7FD /* RecursiveMethod.swift */; };
 		71567E712B7D65F30043B7FD /* MemoizationMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71567E702B7D65F30043B7FD /* MemoizationMethod.swift */; };
 		71567E732B7D66100043B7FD /* TabulationMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71567E722B7D66100043B7FD /* TabulationMethod.swift */; };
@@ -40,6 +41,7 @@
 		714B14DB2B8BACB5002E7E0E /* quickSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quickSort.swift; sourceTree = "<group>"; };
 		714B14DD2B8BB23E002E7E0E /* mergeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mergeSort.swift; sourceTree = "<group>"; };
 		714B14DF2B8BB296002E7E0E /* timeCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timeCalculator.swift; sourceTree = "<group>"; };
+		714B14E12B8BB89F002E7E0E /* heapSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = heapSort.swift; sourceTree = "<group>"; };
 		71567E6E2B7D65B70043B7FD /* RecursiveMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecursiveMethod.swift; sourceTree = "<group>"; };
 		71567E702B7D65F30043B7FD /* MemoizationMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoizationMethod.swift; sourceTree = "<group>"; };
 		71567E722B7D66100043B7FD /* TabulationMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabulationMethod.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 				714B14DF2B8BB296002E7E0E /* timeCalculator.swift */,
 				714B14DB2B8BACB5002E7E0E /* quickSort.swift */,
 				714B14DD2B8BB23E002E7E0E /* mergeSort.swift */,
+				714B14E12B8BB89F002E7E0E /* heapSort.swift */,
 			);
 			path = "Laboratory 2";
 			sourceTree = "<group>";
@@ -183,6 +186,7 @@
 				714B14E02B8BB296002E7E0E /* timeCalculator.swift in Sources */,
 				714B14D82B8B9AC3002E7E0E /* Laboratory2Main.swift in Sources */,
 				718874CB2B7A2E1E0065245D /* main.swift in Sources */,
+				714B14E22B8BB89F002E7E0E /* heapSort.swift in Sources */,
 				714B14DE2B8BB23E002E7E0E /* mergeSort.swift in Sources */,
 				71567E6F2B7D65B70043B7FD /* RecursiveMethod.swift in Sources */,
 			);
