@@ -9,3 +9,5 @@
 import Foundation
 
 //  lab1()
+
+lab2()
