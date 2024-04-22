@@ -12,5 +12,7 @@ func lab3() {
     dfs()
     print()
     print("---------------")
-    
+    print("BFS Algorithm: ")
+    bfs()
+    print()
 }

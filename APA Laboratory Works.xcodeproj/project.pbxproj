@@ -35,6 +35,8 @@
 		71E47A502BD7003900458431 /* Laboratory3Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E47A4F2BD7003900458431 /* Laboratory3Main.swift */; };
 		71E47A532BD700B400458431 /* GraphDFS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E47A522BD700B400458431 /* GraphDFS.swift */; };
 		71E47A552BD700C400458431 /* DFS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E47A542BD700C400458431 /* DFS.swift */; };
+		71E47A582BD701A900458431 /* BFS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E47A572BD701A900458431 /* BFS.swift */; };
+		71E47A5A2BD701B800458431 /* GraphBFS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E47A592BD701B800458431 /* GraphBFS.swift */; };
 		71F3184F2B80FADA0073FEE6 /* Laboratory1Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F3184E2B80FADA0073FEE6 /* Laboratory1Main.swift */; };
 /* End PBXBuildFile section */
 
@@ -80,6 +82,8 @@
 		71E47A4F2BD7003900458431 /* Laboratory3Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Laboratory3Main.swift; sourceTree = "<group>"; };
 		71E47A522BD700B400458431 /* GraphDFS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphDFS.swift; sourceTree = "<group>"; };
 		71E47A542BD700C400458431 /* DFS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DFS.swift; sourceTree = "<group>"; };
+		71E47A572BD701A900458431 /* BFS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BFS.swift; sourceTree = "<group>"; };
+		71E47A592BD701B800458431 /* GraphBFS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphBFS.swift; sourceTree = "<group>"; };
 		71F3184E2B80FADA0073FEE6 /* Laboratory1Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Laboratory1Main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -195,6 +199,7 @@
 		71E47A4E2BD7002500458431 /* Laboratory 3 */ = {
 			isa = PBXGroup;
 			children = (
+				71E47A562BD7015A00458431 /* BFS */,
 				71E47A512BD7008600458431 /* DFS */,
 				71E47A4F2BD7003900458431 /* Laboratory3Main.swift */,
 			);
@@ -208,6 +213,15 @@
 				71E47A542BD700C400458431 /* DFS.swift */,
 			);
 			path = DFS;
+			sourceTree = "<group>";
+		};
+		71E47A562BD7015A00458431 /* BFS */ = {
+			isa = PBXGroup;
+			children = (
+				71E47A572BD701A900458431 /* BFS.swift */,
+				71E47A592BD701B800458431 /* GraphBFS.swift */,
+			);
+			path = BFS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,9 +293,11 @@
 				71E47A502BD7003900458431 /* Laboratory3Main.swift in Sources */,
 				71567E792B7D666C0043B7FD /* GoldenRatioMethod.swift in Sources */,
 				71E47A4C2BD6FD4600458431 /* GraphFloyd.swift in Sources */,
+				71E47A582BD701A900458431 /* BFS.swift in Sources */,
 				71E47A392BD6F90F00458431 /* Graph.swift in Sources */,
 				71E47A2D2BD6ECA300458431 /* Laboratory5Main.swift in Sources */,
 				71E47A3E2BD6FAB000458431 /* Laboratory4Main.swift in Sources */,
+				71E47A5A2BD701B800458431 /* GraphBFS.swift in Sources */,
 				71E47A422BD6FAF800458431 /* GraphDijkstra.swift in Sources */,
 				71F3184F2B80FADA0073FEE6 /* Laboratory1Main.swift in Sources */,
 				71E47A532BD700B400458431 /* GraphDFS.swift in Sources */,
