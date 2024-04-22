@@ -10,6 +10,6 @@ import Foundation
 func lab2() {
 //    quickSortApplied()
 //    mergeSortApplied()
-//    heapSortApplied()
-    insertionMethodApplied()
+    heapSortApplied()
+//    insertionMethodApplied()
 }
