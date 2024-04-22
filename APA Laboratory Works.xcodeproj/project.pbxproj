@@ -30,6 +30,8 @@
 		71E47A402BD6FAC800458431 /* EdgeDijkstra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E47A3F2BD6FAC800458431 /* EdgeDijkstra.swift */; };
 		71E47A422BD6FAF800458431 /* GraphDijkstra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E47A412BD6FAF800458431 /* GraphDijkstra.swift */; };
 		71E47A442BD6FB5300458431 /* Dijkstra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E47A432BD6FB5300458431 /* Dijkstra.swift */; };
+		71E47A462BD6FD1100458431 /* Floyd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E47A452BD6FD1100458431 /* Floyd.swift */; };
+		71E47A4C2BD6FD4600458431 /* GraphFloyd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E47A4B2BD6FD4600458431 /* GraphFloyd.swift */; };
 		71F3184F2B80FADA0073FEE6 /* Laboratory1Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F3184E2B80FADA0073FEE6 /* Laboratory1Main.swift */; };
 /* End PBXBuildFile section */
 
@@ -70,6 +72,8 @@
 		71E47A3F2BD6FAC800458431 /* EdgeDijkstra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdgeDijkstra.swift; sourceTree = "<group>"; };
 		71E47A412BD6FAF800458431 /* GraphDijkstra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphDijkstra.swift; sourceTree = "<group>"; };
 		71E47A432BD6FB5300458431 /* Dijkstra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dijkstra.swift; sourceTree = "<group>"; };
+		71E47A452BD6FD1100458431 /* Floyd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Floyd.swift; sourceTree = "<group>"; };
+		71E47A4B2BD6FD4600458431 /* GraphFloyd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphFloyd.swift; sourceTree = "<group>"; };
 		71F3184E2B80FADA0073FEE6 /* Laboratory1Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Laboratory1Main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -156,11 +160,29 @@
 			isa = PBXGroup;
 			children = (
 				71E47A3D2BD6FAB000458431 /* Laboratory4Main.swift */,
+				71E47A472BD6FD2400458431 /* Dijkstra */,
+				71E47A482BD6FD2F00458431 /* Floyd */,
+			);
+			path = "Laboratory 4";
+			sourceTree = "<group>";
+		};
+		71E47A472BD6FD2400458431 /* Dijkstra */ = {
+			isa = PBXGroup;
+			children = (
 				71E47A3F2BD6FAC800458431 /* EdgeDijkstra.swift */,
 				71E47A412BD6FAF800458431 /* GraphDijkstra.swift */,
 				71E47A432BD6FB5300458431 /* Dijkstra.swift */,
 			);
-			path = "Laboratory 4";
+			path = Dijkstra;
+			sourceTree = "<group>";
+		};
+		71E47A482BD6FD2F00458431 /* Floyd */ = {
+			isa = PBXGroup;
+			children = (
+				71E47A452BD6FD1100458431 /* Floyd.swift */,
+				71E47A4B2BD6FD4600458431 /* GraphFloyd.swift */,
+			);
+			path = Floyd;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +252,7 @@
 				714B14DA2B8BA8B2002E7E0E /* arrayGenerator.swift in Sources */,
 				71567E732B7D66100043B7FD /* TabulationMethod.swift in Sources */,
 				71567E792B7D666C0043B7FD /* GoldenRatioMethod.swift in Sources */,
+				71E47A4C2BD6FD4600458431 /* GraphFloyd.swift in Sources */,
 				71E47A392BD6F90F00458431 /* Graph.swift in Sources */,
 				71E47A2D2BD6ECA300458431 /* Laboratory3Main.swift in Sources */,
 				71E47A3E2BD6FAB000458431 /* Laboratory4Main.swift in Sources */,
@@ -238,6 +261,7 @@
 				71E47A372BD6F8EE00458431 /* Kruskal.swift in Sources */,
 				714B14DC2B8BACB5002E7E0E /* quickSort.swift in Sources */,
 				714B14E02B8BB296002E7E0E /* timeCalculator.swift in Sources */,
+				71E47A462BD6FD1100458431 /* Floyd.swift in Sources */,
 				714B14D82B8B9AC3002E7E0E /* Laboratory2Main.swift in Sources */,
 				71E47A2F2BD6EFC800458431 /* Prim.swift in Sources */,
 				718874CB2B7A2E1E0065245D /* main.swift in Sources */,

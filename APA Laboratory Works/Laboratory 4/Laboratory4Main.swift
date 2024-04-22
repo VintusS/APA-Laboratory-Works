@@ -10,4 +10,7 @@ import Foundation
 func lab4() {
     print("Dijkstra Algorithm:")
     dijkstraAlgorithm()
+    print("-------------------")
+    print("Floyd Algorithm:")
+    floydAlgorithm()
 }
