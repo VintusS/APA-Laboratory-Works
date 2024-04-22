@@ -8,5 +8,9 @@
 import Foundation
 
 func lab3() {
+    print("Prim Algorithm:")
     primAlgorithm()
+    print("---------------")
+    print("Prim Kruskal:")
+    kruskalAlgorithm()
 }

@@ -23,6 +23,9 @@
 		718874CB2B7A2E1E0065245D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718874CA2B7A2E1E0065245D /* main.swift */; };
 		71E47A2D2BD6ECA300458431 /* Laboratory3Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E47A2C2BD6ECA300458431 /* Laboratory3Main.swift */; };
 		71E47A2F2BD6EFC800458431 /* Prim.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E47A2E2BD6EFC800458431 /* Prim.swift */; };
+		71E47A372BD6F8EE00458431 /* Kruskal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E47A362BD6F8EE00458431 /* Kruskal.swift */; };
+		71E47A392BD6F90F00458431 /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E47A382BD6F90F00458431 /* Graph.swift */; };
+		71E47A3B2BD6F93400458431 /* Edge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E47A3A2BD6F93400458431 /* Edge.swift */; };
 		71F3184F2B80FADA0073FEE6 /* Laboratory1Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F3184E2B80FADA0073FEE6 /* Laboratory1Main.swift */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +59,9 @@
 		718874CA2B7A2E1E0065245D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		71E47A2C2BD6ECA300458431 /* Laboratory3Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Laboratory3Main.swift; sourceTree = "<group>"; };
 		71E47A2E2BD6EFC800458431 /* Prim.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prim.swift; sourceTree = "<group>"; };
+		71E47A362BD6F8EE00458431 /* Kruskal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kruskal.swift; sourceTree = "<group>"; };
+		71E47A382BD6F90F00458431 /* Graph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
+		71E47A3A2BD6F93400458431 /* Edge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Edge.swift; sourceTree = "<group>"; };
 		71F3184E2B80FADA0073FEE6 /* Laboratory1Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Laboratory1Main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -130,6 +136,9 @@
 			children = (
 				71E47A2C2BD6ECA300458431 /* Laboratory3Main.swift */,
 				71E47A2E2BD6EFC800458431 /* Prim.swift */,
+				71E47A362BD6F8EE00458431 /* Kruskal.swift */,
+				71E47A382BD6F90F00458431 /* Graph.swift */,
+				71E47A3A2BD6F93400458431 /* Edge.swift */,
 			);
 			path = "Laboratory 3";
 			sourceTree = "<group>";
@@ -199,8 +208,10 @@
 				714B14DA2B8BA8B2002E7E0E /* arrayGenerator.swift in Sources */,
 				71567E732B7D66100043B7FD /* TabulationMethod.swift in Sources */,
 				71567E792B7D666C0043B7FD /* GoldenRatioMethod.swift in Sources */,
+				71E47A392BD6F90F00458431 /* Graph.swift in Sources */,
 				71E47A2D2BD6ECA300458431 /* Laboratory3Main.swift in Sources */,
 				71F3184F2B80FADA0073FEE6 /* Laboratory1Main.swift in Sources */,
+				71E47A372BD6F8EE00458431 /* Kruskal.swift in Sources */,
 				714B14DC2B8BACB5002E7E0E /* quickSort.swift in Sources */,
 				714B14E02B8BB296002E7E0E /* timeCalculator.swift in Sources */,
 				714B14D82B8B9AC3002E7E0E /* Laboratory2Main.swift in Sources */,
@@ -208,6 +219,7 @@
 				718874CB2B7A2E1E0065245D /* main.swift in Sources */,
 				714B14E22B8BB89F002E7E0E /* heapSort.swift in Sources */,
 				714B14DE2B8BB23E002E7E0E /* mergeSort.swift in Sources */,
+				71E47A3B2BD6F93400458431 /* Edge.swift in Sources */,
 				71567E6F2B7D65B70043B7FD /* RecursiveMethod.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
