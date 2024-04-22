@@ -32,6 +32,9 @@
 		71E47A442BD6FB5300458431 /* Dijkstra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E47A432BD6FB5300458431 /* Dijkstra.swift */; };
 		71E47A462BD6FD1100458431 /* Floyd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E47A452BD6FD1100458431 /* Floyd.swift */; };
 		71E47A4C2BD6FD4600458431 /* GraphFloyd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E47A4B2BD6FD4600458431 /* GraphFloyd.swift */; };
+		71E47A502BD7003900458431 /* Laboratory3Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E47A4F2BD7003900458431 /* Laboratory3Main.swift */; };
+		71E47A532BD700B400458431 /* GraphDFS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E47A522BD700B400458431 /* GraphDFS.swift */; };
+		71E47A552BD700C400458431 /* DFS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E47A542BD700C400458431 /* DFS.swift */; };
 		71F3184F2B80FADA0073FEE6 /* Laboratory1Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F3184E2B80FADA0073FEE6 /* Laboratory1Main.swift */; };
 /* End PBXBuildFile section */
 
@@ -74,6 +77,9 @@
 		71E47A432BD6FB5300458431 /* Dijkstra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dijkstra.swift; sourceTree = "<group>"; };
 		71E47A452BD6FD1100458431 /* Floyd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Floyd.swift; sourceTree = "<group>"; };
 		71E47A4B2BD6FD4600458431 /* GraphFloyd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphFloyd.swift; sourceTree = "<group>"; };
+		71E47A4F2BD7003900458431 /* Laboratory3Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Laboratory3Main.swift; sourceTree = "<group>"; };
+		71E47A522BD700B400458431 /* GraphDFS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphDFS.swift; sourceTree = "<group>"; };
+		71E47A542BD700C400458431 /* DFS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DFS.swift; sourceTree = "<group>"; };
 		71F3184E2B80FADA0073FEE6 /* Laboratory1Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Laboratory1Main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -138,8 +144,9 @@
 				718874CA2B7A2E1E0065245D /* main.swift */,
 				71567E6D2B7D65920043B7FD /* Laboratory 1 */,
 				714B14D62B8B9A64002E7E0E /* Laboratory 2 */,
-				71E47A2B2BD6EC7A00458431 /* Laboratory 5 */,
+				71E47A4E2BD7002500458431 /* Laboratory 3 */,
 				71E47A3C2BD6FA9400458431 /* Laboratory 4 */,
+				71E47A2B2BD6EC7A00458431 /* Laboratory 5 */,
 			);
 			path = "APA Laboratory Works";
 			sourceTree = "<group>";
@@ -183,6 +190,24 @@
 				71E47A4B2BD6FD4600458431 /* GraphFloyd.swift */,
 			);
 			path = Floyd;
+			sourceTree = "<group>";
+		};
+		71E47A4E2BD7002500458431 /* Laboratory 3 */ = {
+			isa = PBXGroup;
+			children = (
+				71E47A512BD7008600458431 /* DFS */,
+				71E47A4F2BD7003900458431 /* Laboratory3Main.swift */,
+			);
+			path = "Laboratory 3";
+			sourceTree = "<group>";
+		};
+		71E47A512BD7008600458431 /* DFS */ = {
+			isa = PBXGroup;
+			children = (
+				71E47A522BD700B400458431 /* GraphDFS.swift */,
+				71E47A542BD700C400458431 /* DFS.swift */,
+			);
+			path = DFS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,6 +276,7 @@
 				71E47A442BD6FB5300458431 /* Dijkstra.swift in Sources */,
 				714B14DA2B8BA8B2002E7E0E /* arrayGenerator.swift in Sources */,
 				71567E732B7D66100043B7FD /* TabulationMethod.swift in Sources */,
+				71E47A502BD7003900458431 /* Laboratory3Main.swift in Sources */,
 				71567E792B7D666C0043B7FD /* GoldenRatioMethod.swift in Sources */,
 				71E47A4C2BD6FD4600458431 /* GraphFloyd.swift in Sources */,
 				71E47A392BD6F90F00458431 /* Graph.swift in Sources */,
@@ -258,6 +284,7 @@
 				71E47A3E2BD6FAB000458431 /* Laboratory4Main.swift in Sources */,
 				71E47A422BD6FAF800458431 /* GraphDijkstra.swift in Sources */,
 				71F3184F2B80FADA0073FEE6 /* Laboratory1Main.swift in Sources */,
+				71E47A532BD700B400458431 /* GraphDFS.swift in Sources */,
 				71E47A372BD6F8EE00458431 /* Kruskal.swift in Sources */,
 				714B14DC2B8BACB5002E7E0E /* quickSort.swift in Sources */,
 				714B14E02B8BB296002E7E0E /* timeCalculator.swift in Sources */,
@@ -265,6 +292,7 @@
 				714B14D82B8B9AC3002E7E0E /* Laboratory2Main.swift in Sources */,
 				71E47A2F2BD6EFC800458431 /* Prim.swift in Sources */,
 				718874CB2B7A2E1E0065245D /* main.swift in Sources */,
+				71E47A552BD700C400458431 /* DFS.swift in Sources */,
 				714B14E22B8BB89F002E7E0E /* heapSort.swift in Sources */,
 				714B14DE2B8BB23E002E7E0E /* mergeSort.swift in Sources */,
 				71E47A3B2BD6F93400458431 /* Edge.swift in Sources */,

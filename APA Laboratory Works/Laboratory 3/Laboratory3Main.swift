@@ -7,10 +7,10 @@
 
 import Foundation
 
-func lab5() {
-    print("Prim Algorithm:")
-    primAlgorithm()
+func lab3() {
+    print("DFS Algorithm: ")
+    dfs()
+    print()
     print("---------------")
-    print("Prim Kruskal:")
-    kruskalAlgorithm()
+    
 }
