@@ -21,7 +21,7 @@
 		71567E772B7D66550043B7FD /* MatrixExponentiationMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71567E762B7D66550043B7FD /* MatrixExponentiationMethod.swift */; };
 		71567E792B7D666C0043B7FD /* GoldenRatioMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71567E782B7D666C0043B7FD /* GoldenRatioMethod.swift */; };
 		718874CB2B7A2E1E0065245D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718874CA2B7A2E1E0065245D /* main.swift */; };
-		71E47A2D2BD6ECA300458431 /* Laboratory3Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E47A2C2BD6ECA300458431 /* Laboratory3Main.swift */; };
+		71E47A2D2BD6ECA300458431 /* Laboratory5Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E47A2C2BD6ECA300458431 /* Laboratory5Main.swift */; };
 		71E47A2F2BD6EFC800458431 /* Prim.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E47A2E2BD6EFC800458431 /* Prim.swift */; };
 		71E47A372BD6F8EE00458431 /* Kruskal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E47A362BD6F8EE00458431 /* Kruskal.swift */; };
 		71E47A392BD6F90F00458431 /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E47A382BD6F90F00458431 /* Graph.swift */; };
@@ -63,7 +63,7 @@
 		71567E782B7D666C0043B7FD /* GoldenRatioMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoldenRatioMethod.swift; sourceTree = "<group>"; };
 		718874C72B7A2E1E0065245D /* APA Laboratory Works */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "APA Laboratory Works"; sourceTree = BUILT_PRODUCTS_DIR; };
 		718874CA2B7A2E1E0065245D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		71E47A2C2BD6ECA300458431 /* Laboratory3Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Laboratory3Main.swift; sourceTree = "<group>"; };
+		71E47A2C2BD6ECA300458431 /* Laboratory5Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Laboratory5Main.swift; sourceTree = "<group>"; };
 		71E47A2E2BD6EFC800458431 /* Prim.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prim.swift; sourceTree = "<group>"; };
 		71E47A362BD6F8EE00458431 /* Kruskal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kruskal.swift; sourceTree = "<group>"; };
 		71E47A382BD6F90F00458431 /* Graph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
@@ -138,22 +138,22 @@
 				718874CA2B7A2E1E0065245D /* main.swift */,
 				71567E6D2B7D65920043B7FD /* Laboratory 1 */,
 				714B14D62B8B9A64002E7E0E /* Laboratory 2 */,
-				71E47A2B2BD6EC7A00458431 /* Laboratory 3 */,
+				71E47A2B2BD6EC7A00458431 /* Laboratory 5 */,
 				71E47A3C2BD6FA9400458431 /* Laboratory 4 */,
 			);
 			path = "APA Laboratory Works";
 			sourceTree = "<group>";
 		};
-		71E47A2B2BD6EC7A00458431 /* Laboratory 3 */ = {
+		71E47A2B2BD6EC7A00458431 /* Laboratory 5 */ = {
 			isa = PBXGroup;
 			children = (
-				71E47A2C2BD6ECA300458431 /* Laboratory3Main.swift */,
+				71E47A2C2BD6ECA300458431 /* Laboratory5Main.swift */,
 				71E47A2E2BD6EFC800458431 /* Prim.swift */,
 				71E47A362BD6F8EE00458431 /* Kruskal.swift */,
 				71E47A382BD6F90F00458431 /* Graph.swift */,
 				71E47A3A2BD6F93400458431 /* Edge.swift */,
 			);
-			path = "Laboratory 3";
+			path = "Laboratory 5";
 			sourceTree = "<group>";
 		};
 		71E47A3C2BD6FA9400458431 /* Laboratory 4 */ = {
@@ -254,7 +254,7 @@
 				71567E792B7D666C0043B7FD /* GoldenRatioMethod.swift in Sources */,
 				71E47A4C2BD6FD4600458431 /* GraphFloyd.swift in Sources */,
 				71E47A392BD6F90F00458431 /* Graph.swift in Sources */,
-				71E47A2D2BD6ECA300458431 /* Laboratory3Main.swift in Sources */,
+				71E47A2D2BD6ECA300458431 /* Laboratory5Main.swift in Sources */,
 				71E47A3E2BD6FAB000458431 /* Laboratory4Main.swift in Sources */,
 				71E47A422BD6FAF800458431 /* GraphDijkstra.swift in Sources */,
 				71F3184F2B80FADA0073FEE6 /* Laboratory1Main.swift in Sources */,
